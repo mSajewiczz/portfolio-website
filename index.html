@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Mikolaj Sajewicz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee99f757b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <header>
+
+    <nav>
+        <div class="nav-logo">
+            <h2></h2>
+        </div>
+
+        
+        <div class="nav-bar hide">
+            <ul class="nav-ul">
+                <li class="nav-item one"><a href="#">Home</a></li>
+                <li class="nav-item two"><a href="#aboutme">About me</a></li>
+                <li class="nav-item three"><a href="#realisations">Realisations</a></li>
+                <li class="nav-item four"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div class="nav-manipulators">
+            <button class="btn burger-nav"> <i class="fa-solid fa-bars"></i></button>
+            <button class="btn close-nav hide"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+    <div class="header-welcome">
+        <div class="header-box">
+            <div class="header-container">
+                <div class="header-info"> 
+                    <h1>Hi, I'm Mikolaj!</h1>
+                    <p>Welcome on my portfolio! I'm so happy, that you are here. Down below you can find my realisatoins and contact section.</p></div>
+
+                    <a href="#aboutme" class="arrow"><i class="fa-solid fa-chevron-down"></i></a>
+
+            </div>
+        </div>
+        <img class="header-img" src="./img/header-img.jpg" alt="Background of header">
+    </div>
+   </header>
+
+   <section id="aboutme">
+    <h2>About me</h2>
+
+    <div class="about-info">
+        <div class="about-text">
+            <p class="about-text-one">My programming skills are very various. I can do many things in projects. I've done over 100 projects for companys, where I've used my special skills to improve the work and help other team members with thier problems while the project. After all my efforts I've becomed the team leader, so I've the experience in govern in teams. I've over 3 years of experience in programming in various languages and technologies. I'm very sociable person and can speak 3 languages - polish (naitive), german (B2) and english (A2/B1). In my free time I fond of playing piano, training on the gym and spend my time on learning new things, that will improve my abilities. </p>
+            <p class="about-text-two">I'm looking for challenging projects, where I can use 100% of my skills and can get new experience, that will upgrade my portfolio and get me huge growth. I prefer to work remotely and my work is on the B2B contract.</p>
+        </div>
+        <img src="./img/sigma.jpeg" alt="Photo of me (sigma)" class="about-img">
+    </div>
+
+    <div class="accordeon">
+        <h2>My Skills</h2>
+        <div class="options">
+            <button class="skill skills-one special-option">C#</button>
+            <button class="skill skills-two">Web Design</button>
+            <button class="skill skills-three">Data Analyst</button>
+        </div>
+        <div class="descriptions">  
+            <div class="des-one">I'm very creative C# developer with 2 years of experience. I've worked with many of technologies like .NET or ASP.NET, have complety know-how about working for big companies with advanced projects. </div>
+            <div class="des-two hide">Frontend developer with 3 years of experience, can write the app or website in React.js, pure HTML, CSS and JS, good know the Bootstrap framework and can set up page on WordPress.</div>
+            <div class="des-three hide">Experienced data analyst, know how to work with many data bases with SQL and PHP, know the basics of data security and want to learn more. Good working with Microsoft SQL Studio Menagement.</div>
+        </div>
+    </div>
+
+    <!-- <div class="skils-bar">
+        <div class="skills-bar-element">
+            <p>C# Developer</p>
+            <div class="group">
+                <div class="insight-one"></div>
+                <div class="group-element"></div>
+            </div>
+        </div>
+        <div class="skills-bar-element">
+            <p>Web Design</p>
+            <div class="group">
+                <div class="insight-two"></div>
+                <div class="group-element"></div>
+            </div>
+        </div>
+        <div class="skills-bar-element">
+            <p>Data Analyse</p>
+                <div class="group">
+                    <div class="insight-three"></div>
+                    <div class="group-element"></div>
+                </div>
+        </div>
+    </div> -->
+
+   </section>
+
+   <section id="realisations">
+    <h2>My realisations</h2>
+    <div class="realisations-box">
+
+        <div class="realisation-element">
+            <h3>1st realisation</h3>
+            <img src="./img/first-project.png" alt="">
+            <button>Show more</button>
+        </div>
+
+        <div class="realisation-element">
+            <h3>2nd realisation</h3>
+            <img src="./img/second-project.png" alt="">
+            <button>Show more</button>
+        </div>
+
+        <div class="realisation-element">
+            <h3>3rd realisation</h3>
+            <img src="./img/third-project.png" alt="">
+            <button>Show more</button>
+        </div>
+
+    </div>
+   </section>
+
+   <section id="contact">
+    <h2>Contact</h2>
+
+    <div class="contact-box">
+        <h3>Keep in touch with me!</h3>
+        <div class="contact-form"> 
+            <div class="form-item"> <i class="fa-solid fa-user"></i> <input placeholder="Name*" type="text"></div>
+            <div class="form-item"> <i class="fa-solid fa-at"></i> <input placeholder="E-mail adress*" type="email"></div>
+            <div class="form-item"> <i class="fa-solid fa-comment"></i><textarea name="" id="" placeholder="Write your message"></textarea></div>
+            <p>* - required</p>
+            <button>Send me your mail!</button>
+        </div>
+
+    </div>
+
+    </section>
+
+    <footer>
+        <p>Mikolaj Sajewicz 2024 | All right reserved.</p>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
