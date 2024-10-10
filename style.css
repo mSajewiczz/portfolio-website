@@ -281,6 +281,11 @@ section {
 
 .realisation-element {
     font-size: 18px;
+    transition: all 0.4s;
+}
+
+.realisation-element:hover {
+    transform: scale(.9);
 }
 
 .realisation-element img {
